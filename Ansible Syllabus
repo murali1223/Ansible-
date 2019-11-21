@@ -1,0 +1,53 @@
+Ansible Syllabus
+Introduction
+Why configuration management is a critical part of any DevOps team
+Strengths and weaknesses of Ansible
+Web scale
+How Ansible is different from other CM tools like Chef and Puppet
+Getting started with Ansible terminology
+Ansible and YML for describing your environments
+Getting set up
+Some prerequisites
+Getting set up on a Mac
+Getting set up on Linux
+Getting set up on Windows
+Testing with Vagrant
+Using SSH keys to connect to your target nodes
+Inventory
+Basic inventory example
+Hosts and groups
+Ansible Playbooks
+A useful directory structure to keep your Ansible code organized
+Using git to manage your Ansible code
+A first look at a playbook to install and configure NTP time synchronization
+Provisioners
+Connecting Ansible to your preferred cloud provider (we'll use DigitalOcean)
+Creating a new server instance
+Dynamic inventory
+Dynamic inventory on Amazon AWS
+Mixing static and dynamic inventory
+Highly available infrastructure with Ansible
+Spec up our inventory and host groups
+Using roles
+Configure our database backend
+Configure our web server front-end
+Configure a replicated filesystem
+Configure centralized logging
+Application deployments with Ansible
+Deploying our app from SCM to our local Vagrant environment
+How we would deploy that code to production once tested by QA
+Updating our application
+How Ansible compares to alternatives such as Capistrano
+Docker containers with Ansible
+Brief intro to Docker
+The synergy of containerization and automation
+Using Ansible to build Docker containers
+MySQL containers
+Web application containers
+Data storage containers
+Testing and continuous integration
+Unit, integration and functional testing
+Automating your testing using GitHub and Travis CI
+Preparing for Ansible back at work
+Real-world use case: Using Ansible to automate CM and application pipelines through continuous integration, release, deployment and operations
+We'll review your own environments and processes and evaluate how to best integrate Ansible's configuration management for your own needs
